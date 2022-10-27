@@ -169,11 +169,11 @@
   display: none;
 }
 
-.list__edit-item .todo__text {
+.todo__edit-mode .todo__text {
   display: inline-block;
   width: 224px;
 }
 
-.list__edit-item .todo__label {
+.todo__edit-mode .todo__label {
   display: none;
 }
