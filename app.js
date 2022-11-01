@@ -87,7 +87,7 @@ var editTask=function(){
     var listItem=this.parentNode;
 
     var editInput=listItem.querySelector('.task-list__text');
-    var label=listItem.querySelector(".task-list__checkbox");
+    var label=listItem.querySelector(".task-list__label");
     var editBtn=listItem.querySelector(".task-list__button-edit");
     var containsClass=listItem.classList.contains("task-list__edit-mode");
     //If class of the parent is .task-list__edit-mode
